@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+#slider{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 50px;
+    height: 50vh;
+    overflow: hidden;  
+}
+
+#slider img{
+    z-index: -1;
+    width: 100%;
+}
+
+
+
+#slider .prev{
+    position:absolute;
+    font-size: 30px;
+    top: 45%;
+    padding: 20px 50px ;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    left: 50px;
+}
+
+#slider .next{
+    position:absolute;
+    font-size: 30px;
+    top: 45%;
+    padding: 20px 50px ;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    right: 50px;
+}
